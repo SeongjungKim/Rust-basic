@@ -2,7 +2,7 @@
 //! 
 //! # Examples
 //!```
-//!# use bubble_sort::bubble_sort;
+//!# use bubble_sort_davidkim::bubble_sort;
 //! let v = vec![2, 2, 10, 1, 5, 4, 3]; 
 //! assert_eq!(bubble_sort(&v), vec![1, 2, 2, 3, 4, 5, 10]);
 //!```

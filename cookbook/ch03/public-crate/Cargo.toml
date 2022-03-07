@@ -1,8 +1,21 @@
 [package]
-name = "public-crate"
+name = "bubble-sort-davidkim"
+description = "A quick and non-optimized, cloning version of the bubble sort algorithm. Created as a showcase for publishing crates in the Rust Cookbook 2018"
 version = "0.1.0"
+authors = ["David Kim <vder8282@gmail.com>"]
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+repository = "https://github.com/SeongjungKim/rust"
+license = "MIT"
+categories = [
+    "algorithms", 
+]
+keywords = [
+    "cookbook",
+    "davidkim", 
+    "bubble",
+    "sort",
+]
+readme = "README.md"
+maintenance = { status = "experimental" }
 
 [dependencies]
