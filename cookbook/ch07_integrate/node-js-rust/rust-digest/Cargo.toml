@@ -1,0 +1,12 @@
+[package]
+name = "rust-digest"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "digest"
+crate-type = ["cdylib"]
+
+[dependencies]
+libc =  "0.2"
+ring = "0.14"
